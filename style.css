@@ -1,0 +1,129 @@
+body {
+    background: whitesmoke;
+    max-width: 80vw;
+    max-height: 50vw;
+    margin: auto;
+
+}
+
+
+header {
+    max-width: 90vw;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    background: #fffe7a;
+
+
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    max-width: 90vw;
+    max-height: 80vw;
+    margin: 0 auto;
+    background: wheat;
+}
+
+.culori {
+    height: 100px;
+    width: 80vw;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    background: wheat;
+}
+
+.bad {
+    height: 80px;
+    width: 80px;
+    margin-left: auto;
+    background: #556B2F;
+    border-color: black;
+    border-width: thin;
+    border-style: solid;
+
+
+}
+
+.ok {
+    background: #9ACD32;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    margin-right:10px;
+    border-color: black;
+    border-width: thin;
+    border-style: solid;
+
+}
+
+.good {
+    background: #f8de7e;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    margin-left:10px;
+    border-color: black;
+    border-width: thin;
+    border-style: solid;
+
+}
+
+.awesome {
+    background-color: #fffe7a;
+    height: 80px;
+    width: 80px;
+    margin-right: auto;
+    border-color: black;
+    border-width: thin;
+    border-style: solid;
+
+}
+/* .culorile {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    display: inline-flex;
+    row-gap: 10px;;
+} */
+
+.bad:hover {
+    background-color:#2b3618;
+    color: white;
+}
+
+.ok:hover {
+    background-color:#779e29;
+    color: white;
+}
+
+.good:hover {
+    background-color: #c7b163;
+    color: white;
+}
+
+.awesome:hover {
+    background-color: #d6d663;
+    color: white;
+}
+
+polygon:hover {
+    background-color: gray;
+    color: white;
+}
