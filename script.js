@@ -8,7 +8,12 @@ const culori= {
 }
 
 function coloreaza(id){
+    if(!culoareaAleasa) {
+        alert("Pick a color from below")
+    } else {
     document.getElementById(id.id).style.fill = culoareaAleasa;
+    }
+
 }
 
 const changeColor = (color) =>{
